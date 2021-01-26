@@ -1,0 +1,12 @@
+.dashboard-card {
+    background: #e0e0e0;
+    min-height: 670px !important;
+}
+
+.dashboard-card-item {
+    background: white !important;
+    border: none !important;
+    border-radius: 8px;
+    position: relative;
+}
+  

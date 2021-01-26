@@ -1,0 +1,53 @@
+.layout {
+    display: flex;
+    flex-direction: row;
+  }
+  
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 50px;
+}
+.content {
+    width: 95vw;
+    margin-left: 80px;
+    height: 100vh;
+    overflow-x: auto;
+}
+.content::-webkit-scrollbar {
+    display: none;
+}
+#sidebarMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px;
+    background-color: #42c7fa;
+    text-align: center;
+  }
+.app-logo {
+    margin-top: 20px;
+}
+.sidebar-nav {
+    margin-top: 100px;
+}
+.nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+}
+.nav-active {
+    background: -moz-linear-gradient(left,  rgba(255,255,255,0) 6%, rgba(255,255,255,0.35) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 6%,rgba(255,255,255,0.35) 100% ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(255,255,255,0) 6%,rgba(255,255,255,0.35) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f2f2f2',GradientType=1 ); /* IE6-9 */
+}
+.active-icon{
+    margin-right: 0;
+    color: white;
+    margin-left: 12px;
+}
